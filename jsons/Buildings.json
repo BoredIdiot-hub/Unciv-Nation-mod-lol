@@ -1,25 +1,62 @@
 [
 	{
-		"name": "Holodeck",
+		"name": "Imperial Opera",
 		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Wurnia",
 		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"happiness": 22,
+		"culture": 20,
+		"science": 50,
+		"maintenance": 1,
 		"isNationalWonder": true,
 		"requiredBuildingInAllCities": "Colosseum",
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Breeders",
+		"name": "Grand Dam",
 		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
+		"uniqueTo": "Wurnia",
 		"cost": 80,
 		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"happiness": 20,
+		"uniques": ["150% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
+	}, 
+        {
+                "name": "Imperial Steel Mill", 
+		"replaces": "", 
+		"uniqueTo": "Wurnia", 
+		"cost": 200, 
+		"production": 750, 
+		"science": 250,
+		"maintenance": 2,
+		"isNationalWonder": true, 
+		"uniques": ["Double the amount of coal and iron produced"], ["180% production growth in all cities"], ["500%  production in all cities after discovering Industrialization"], 
+		"requiredTech": "Steel"
+	}, 
+	{
+		"name": "Imperial Academy", 
+		"replaces": "", 
+		"uniqueTo": "Wurnia"
+		"cost": 180,
+		"culture": 50,
+		"science": 280,
+		"maintenance": 0
+		"isNationalWonder": true, 
+		"uniques": ["200% science in all cities"],
+		"requiredTech": "Scientific Theory"
+	}, 
+	{
+		"name": "Aluminum Industry", 
+		"replaces": "", 
+		"uniqueTo": "Wurnia", 
+		"cost": 100,
+		"production": 240,
+		"science": 120,
+		"maintenance": 2,
+		"isNationalWonder": true, 
+		"uniques": ["Quadruple the amount of Aluminum produced"], 
+		"requiredTech": "Electricity"
 	}
-]
+		
+		
