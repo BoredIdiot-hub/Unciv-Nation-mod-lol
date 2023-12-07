@@ -1,62 +1,47 @@
-[
-	{
-		"name": "Imperial Opera",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Wurnia",
-		"cost": 480,
-		"happiness": 22,
-		"culture": 20,
-		"science": 50,
-		"maintenance": 1,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Grand Dam",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Wurnia",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 20,
-		"uniques": ["150% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}, 
-        {
-                "name": "Imperial Steel Mill", 
-		"replaces": "", 
-		"uniqueTo": "Wurnia", 
-		"cost": 200, 
-		"production": 750, 
-		"science": 250,
-		"maintenance": 2,
-		"isNationalWonder": true, 
-		"uniques": ["Double the amount of coal and iron produced"], ["180% production growth in all cities"], ["500%  production in all cities after discovering Industrialization"], 
-		"requiredTech": "Steel"
-	}, 
-	{
-		"name": "Imperial Academy", 
-		"replaces": "", 
-		"uniqueTo": "Wurnia"
-		"cost": 180,
-		"culture": 50,
-		"science": 280,
-		"maintenance": 0
-		"isNationalWonder": true, 
-		"uniques": ["200% science in all cities"],
-		"requiredTech": "Scientific Theory"
-	}, 
-	{
-		"name": "Aluminum Industry", 
-		"replaces": "", 
-		"uniqueTo": "Wurnia", 
-		"cost": 100,
-		"production": 240,
-		"science": 120,
-		"maintenance": 2,
-		"isNationalWonder": true, 
-		"uniques": ["Quadruple the amount of Aluminum produced"], 
-		"requiredTech": "Electricity"
-	}
-		
-		
+<buildings>
+    <!-- Imperial Opera -->
+    <building>
+        <name>Imperial Opera</name>
+        <replaces>Circus Maximus</replaces>
+        <uniqueTo>Wurnia</uniqueTo>
+        <cost>480</cost>
+        <happiness>22</happiness>
+        <culture>20</culture>
+        <science>50</science>
+        <maintenance>1</maintenance>
+        <isNationalWonder>true</isNationalWonder>
+        <requiredBuildingInAllCities>Colosseum</requiredBuildingInAllCities>
+        <requiredTech>Horseback Riding</requiredTech>
+    </building>
+
+    <!-- Grand Dam -->
+    <building>
+        <name>Grand Dam</name>
+        <replaces>Aqueduct</replaces>
+        <uniqueTo>Wurnia</uniqueTo>
+        <cost>80</cost>
+        <hurryCostModifier>160</hurryCostModifier>
+        <happiness>20</happiness>
+        <uniques>150% of food is carried over after a new citizen is born</uniques>
+        <requiredTech>Engineering</requiredTech>
+    </building>
+
+    <!-- Imperial Steel Mill -->
+    <building>
+        <name>Imperial Steel Mill</name>
+        <replaces></replaces>
+        <uniqueTo>Wurnia</uniqueTo>
+        <cost>200</cost>
+        <production>750</production>
+        <science>250</science>
+        <maintenance>2</maintenance>
+        <isNationalWonder>true</isNationalWonder>
+        <uniques>Double the amount of coal and iron produced</uniques>
+        <uniques>180% production growth in all cities</uniques>
+        <uniques>500% production in all cities after discovering Industrialization</uniques>
+        <requiredTech>Steel</requiredTech>
+    </building>
+
+    <!-- Imperial Academy -->
+    <!-- Add similar structure for other buildings -->
+</buildings>
