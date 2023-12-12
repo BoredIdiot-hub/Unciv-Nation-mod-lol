@@ -31,7 +31,7 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Islam", 
 		"uniquename": "Scientialism",
-		"uniques": ["[+100]% the amount of [all] strategic resources produced", "[+100]% the amount of gold per turn <upon discovering [guilds]>"], 
+		"uniques": ["[+100]% the amount of [all] strategic resources produced", "[+100]% the amount of gold per turn <upon discovering [guilds]>", "[+200]% the amount of Science produced", "[+150]% the amount of production produced"], 
 		"cities": ["Wurnia City","Wesnia","Strohon","Jomon","Kiryun", "Surnia","Meinhal","Gerv","Henali","Dimitras","Gerkol","Daigo","Sedra","Auron","Hordus","New Strohon","Dirhan","Yoha","Quihe","Heiro","New Wesnia"]
 		"spyNames": ["Merhik"]
 	}
