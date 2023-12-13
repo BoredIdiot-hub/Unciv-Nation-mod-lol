@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Scientialism", 
+    "era": "Renaissance era", 
+    "uniqueTo": "Wurnia", 
+    "priorities": {
+      "Neutral": 20,
+      "Cultural": 50,
+      "Diplomatic": 100,
+      "Domination": 40,
+      "Scientific": 200
+    },
+    "uniques": [
+      "[+40]% science [in all cities]", 
+      "[+75]% culture [in all cities]"
+    ], 
+    "policies": [
+      {
+        "name": "Freedom of Expression", 
+        "uniques": [
+          "[+1 Happiness] per [1] population [in all cities]", 
+          "[+2 Science] [in all cities]", 
+          "[+4 Science] [in Capital]"
+        ], 
+        "row": 1,
+        "column": 1
+      }, 
+      {
+        "name": "Phoganda", 
+        "uniques": [
+          "[+20]% science [in all cities]", 
+          "[+35]% culture [in all cities]"
+        ], 
+        "row": 1,
+        "column": 4
+      }
+    ]
+  }
+]
