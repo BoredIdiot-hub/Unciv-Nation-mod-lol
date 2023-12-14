@@ -1,7 +1,7 @@
 [
   {
     "name": "Scientialism", 
-    "era": "Renaissance era", 
+    "era": "Industrial era", 
     "uniqueTo": "Wurnia", 
     "priorities": {
       "Neutral": 20,
@@ -12,7 +12,10 @@
     },
     "uniques": [
       "[+40]% science [in all cities]", 
-      "[+75]% culture [in all cities]"
+      "[+75]% culture [in all cities]", 
+      "Only available <before adopting [Autocracy]>", 
+      "Only available <before adopting [Freedom]>", 
+      "Only available <before adopting [Order]>"
     ], 
     "policies": [
       {
@@ -31,9 +34,34 @@
           "[+20]% science [in all cities]", 
           "[+35]% culture [in all cities]"
         ], 
-        "row": 1,
-        "column": 4
+        "row": 2,
+        "column": 1
       }, 
+      {
+        "name": "Impartial Press"
+        "uniques": [
+          "[+4] movement <for all units>"
+          ], 
+        "row": 3,
+        "column": 1
+      }, 
+      {
+        "name": "Secularism",
+        "uniques": [
+          "[+2 Science] from every specialist [in all cities]"
+        ],
+        "row": 1,
+        "column": 2
+      },
+      {
+        "name": "Responsible Education"
+        "uniques": [
+          "[+4] happiness [in all cities]", 
+          "[+10] science [in all cities]"
+        ], 
+        "row": 2,
+        "column": 2
+      },
       {
         "name": "Scientialism Complete", 
         "uniques": [
