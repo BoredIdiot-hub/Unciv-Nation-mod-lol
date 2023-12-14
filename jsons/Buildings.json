@@ -71,7 +71,7 @@
 		    "requiredResource": ["Iron", "Coal"], 
 		    "cost": 250,
 		    "maintenance": 2,
-		    "uniques": ["Provides [5] [Steel]"], 
+		    "uniques": ["Provides [5] [Steel Bar]"], 
                     "unlimited": true, 
 		    "requiredTech": "Industrialization"
 	}
