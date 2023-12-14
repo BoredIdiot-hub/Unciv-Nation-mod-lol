@@ -68,7 +68,7 @@
         }, 
 	{
 		"name": "Steel Mill", 
-		"requiredResource": "Iron, Coal"
+		"requiredResource": ["Iron", "Coal"], 
 		"cost": 250,
 		"maintenance": 2,
 		"uniques": ["Provides [5] [Steel]"]
