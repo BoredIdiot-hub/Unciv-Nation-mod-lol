@@ -73,7 +73,7 @@
 		"maintenance": 2,
 		"uniques": ["Provides [5] [Steel]"]
                 "unlimited": true 
-		"requiredTech": "Steel"
+		"requiredTech": "Industrialization"
 	}
 ]
 	
