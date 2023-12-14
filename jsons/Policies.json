@@ -38,7 +38,7 @@
         "column": 1
       }, 
       {
-        "name": "Impartial Press"
+        "name": "Impartial Press", 
         "uniques": [
           "[+4] movement <for all units>"
           ], 
@@ -54,14 +54,81 @@
         "column": 2
       },
       {
-        "name": "Responsible Education"
+        "name": "Responsible Education", 
         "uniques": [
-          "[+4] happiness [in all cities]", 
+          "[+4 happiness] [in all cities]", 
           "[+10] science [in all cities]"
         ], 
         "row": 2,
         "column": 2
       },
+      {
+        "name": "Utopia", 
+        "uniques": [
+          "Empire enters golden age", 
+          "[+4 happiness] from each type of luxury resource"
+        ], 
+        "row": 3,
+        "column": 2
+      }, 
+      {
+        "name": "Non-Partisan meritocratic government", 
+        "uniques": [
+          "[+10]% Gold [in all cities]", 
+          "[+25]% Production [in all cities]", 
+          "[-33]% maintenance <for [all improvements]>", 
+          "[-33]% maintenance <for [all buildings]>"
+        ], 
+        "row": 1,
+        "column": 3
+      }, 
+      {
+        "name": "Government Transparency", 
+        "uniques": [
+          "[+40 culture] [in all cities]", 
+          "[+40]% science [in all cities]"
+        ], 
+        "row": 2,
+        "column": 3
+      }, 
+      {
+        "name": "Anti-Corruption", 
+        "uniques": [
+          "[+4 happiness] [in all cities]", 
+          "[+20]% gold [in all cities]"
+        ], 
+        "row": 3,
+        "column": 3
+      }, 
+      {
+        "name": "Planned Production", 
+        "uniques": [
+          "[+3 happiness] [in all cities]", 
+          "[+60]% production [in all cities]",
+        ], 
+        "row": 1,
+        "column": 4
+      }, 
+      {
+        "name": "Entrepreneurial endeavors", 
+        "uniques": [
+          "[+25]% production [in all cities]", 
+          "[+10]% gold [in all cities]", 
+          "[+4 science] from every [Stock Market]"
+        ], 
+        "row": 2,
+        "column": 4
+      }, 
+      {
+        "name": "Consumerism", 
+        "uniques": [
+          "[+50]% production [in all cities]", 
+          "[+10 happiness] from each type of luxury resource", 
+          "[+15 production] from each type of luxury resource"
+        ], 
+        "row": 3,
+        "column": 4
+      }, 
       {
         "name": "Scientialism Complete", 
         "uniques": [
