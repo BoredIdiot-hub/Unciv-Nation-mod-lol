@@ -20,7 +20,7 @@
         "uniques": [
           "[+1 Happiness] per [1] population [in all cities]", 
           "[+2 Science] [in all cities]", 
-          "[+4 Science] [in Capital]"
+          "[+4 Culture] [in all cities]"
         ], 
         "row": 1,
         "column": 1
@@ -33,6 +33,15 @@
         ], 
         "row": 1,
         "column": 4
+      }, 
+      {
+        "name": "Scientialism Complete"
+        "uniques": [
+          "Empire enters 25 turn golden age", 
+          "[+100]% happiness [in all cities]", 
+          "[+150]% science [in all cities]", 
+          "[+80]% culture [in all cities]"
+        ]
       }
     ]
   }
