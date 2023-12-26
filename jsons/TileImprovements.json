@@ -1,6 +1,6 @@
 [
   {
-    "name": "Steel Mill", 
+    "name": "Steeler", 
     "terrainsCanBeBuiltOn": ["Land"], 
     "techRequired": "Industrialization", 
     "resourceRequired": ["[3] Iron", "[3] Coal"],
