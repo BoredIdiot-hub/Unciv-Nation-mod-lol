@@ -21,9 +21,9 @@
       {
         "name": "Freedom of Expression", 
         "uniques": [
-          "[+1 Happiness] per [1] population [in all cities]", 
-          "[+2 Science] [in all cities]", 
-          "[+4 Culture] [in all cities]"
+          "[+1] Happiness per [1] population [in all cities]", 
+          "[+2] Science [in all cities]", 
+          "[+4] Culture [in all cities]"
         ], 
         "row": 1,
         "column": 1
@@ -46,9 +46,9 @@
         "column": 1
       }, 
       {
-        "name": "Secularism",
+        "name": "Dis-establismentarianism",
         "uniques": [
-          "[+2 Science] from every specialist [in all cities]"
+          "[+2] science from every specialist [in all cities]"
         ],
         "row": 1,
         "column": 2
@@ -56,7 +56,7 @@
       {
         "name": "Responsible Education", 
         "uniques": [
-          "[+4 happiness] [in all cities]", 
+          "[+4] happiness [in all cities]", 
           "[+10] science [in all cities]"
         ], 
         "row": 2,
@@ -66,7 +66,7 @@
         "name": "Utopia", 
         "uniques": [
           "Empire enters golden age", 
-          "[+4 happiness] from each type of luxury resource"
+          "[+4] happiness from each type of luxury resource"
         ], 
         "row": 3,
         "column": 2
@@ -85,7 +85,7 @@
       {
         "name": "Government Transparency", 
         "uniques": [
-          "[+40 culture] [in all cities]", 
+          "[+40] culture [in all cities]", 
           "[+40]% science [in all cities]"
         ], 
         "row": 2,
@@ -94,7 +94,7 @@
       {
         "name": "Anti-Corruption", 
         "uniques": [
-          "[+4 happiness] [in all cities]", 
+          "[+4] happiness [in all cities]", 
           "[+20]% gold [in all cities]"
         ], 
         "row": 3,
@@ -103,7 +103,7 @@
       {
         "name": "Planned Production", 
         "uniques": [
-          "[+3 happiness] [in all cities]", 
+          "[+3] happiness [in all cities]", 
           "[+60]% production [in all cities]",
         ], 
         "row": 1,
@@ -114,7 +114,7 @@
         "uniques": [
           "[+25]% production [in all cities]", 
           "[+10]% gold [in all cities]", 
-          "[+4 science] from every [Stock Market]"
+          "[+4] science from every [Stock Market]"
         ], 
         "row": 2,
         "column": 4
@@ -123,8 +123,8 @@
         "name": "Consumerism", 
         "uniques": [
           "[+50]% production [in all cities]", 
-          "[+10 happiness] from each type of luxury resource", 
-          "[+15 production] from each type of luxury resource"
+          "[+10] happiness from each type of luxury resource", 
+          "[+15] production from each type of luxury resource"
         ], 
         "row": 3,
         "column": 4
