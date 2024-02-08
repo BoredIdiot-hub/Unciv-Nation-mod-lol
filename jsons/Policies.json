@@ -34,6 +34,7 @@
           "[+20]% science [in all cities]", 
           "[+35]% culture [in all cities]"
         ], 
+        "requires": ["Freedom of Expression"],
         "row": 2,
         "column": 1
       }, 
@@ -42,11 +43,12 @@
         "uniques": [
           "[+4] movement <for all units>"
           ], 
+        "requires": ["Phoganda"], 
         "row": 3,
         "column": 1
       }, 
       {
-        "name": "Dis-establismentarianism",
+        "name": "Disestablismentarianism",
         "uniques": [
           "[+2] science from every specialist [in all cities]"
         ],
@@ -59,6 +61,7 @@
           "[+4] happiness [in all cities]", 
           "[+10] science [in all cities]"
         ], 
+        "requires": ["Disestablishmentarianism"], 
         "row": 2,
         "column": 2
       },
@@ -68,11 +71,12 @@
           "Empire enters golden age", 
           "[+4] happiness from each type of luxury resource"
         ], 
+        "requires": ["Responsible Education"], 
         "row": 3,
         "column": 2
       }, 
       {
-        "name": "Non-Partisan meritocratic government", 
+        "name": "Non-Partisan Meritocratic Government", 
         "uniques": [
           "[+10]% Gold [in all cities]", 
           "[+25]% Production [in all cities]", 
@@ -88,6 +92,7 @@
           "[+40] culture [in all cities]", 
           "[+40]% science [in all cities]"
         ], 
+        "requires": ["Non-Partisan Meritocractic Government"], 
         "row": 2,
         "column": 3
       }, 
@@ -97,6 +102,7 @@
           "[+4] happiness [in all cities]", 
           "[+20]% gold [in all cities]"
         ], 
+        "requires": ["Government Transparency"], 
         "row": 3,
         "column": 3
       }, 
@@ -110,12 +116,13 @@
         "column": 4
       }, 
       {
-        "name": "Entrepreneurial endeavors", 
+        "name": "Entrepreneurial endeavours", 
         "uniques": [
           "[+25]% production [in all cities]", 
           "[+10]% gold [in all cities]", 
           "[+4] science from every [Stock Market]"
         ], 
+        "requires": ["Planned Production"], 
         "row": 2,
         "column": 4
       }, 
@@ -126,6 +133,7 @@
           "[+10] happiness from each type of luxury resource", 
           "[+15] production from each type of luxury resource"
         ], 
+        "requires": ["Entrepreneurial Endeavours"], 
         "row": 3,
         "column": 4
       }, 
