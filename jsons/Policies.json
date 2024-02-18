@@ -47,7 +47,7 @@
         "column": 1
       }, 
       {
-        "name": "Disestablismentarianism",
+        "name": "Disestablishmentarianism",
         "uniques": [
           "[+2] science from every specialist [in all cities]"
         ],
@@ -91,7 +91,7 @@
           "[+40] culture [in all cities]", 
           "[+40]% science [in all cities]"
         ], 
-        "requires": ["Non-Partisan Meritocractic Government"], 
+        "requires": ["Non-Partisan Meritocratic Government"], 
         "row": 2,
         "column": 3
       }, 
@@ -115,7 +115,7 @@
         "column": 4
       }, 
       {
-        "name": "Entrepreneurial endeavours", 
+        "name": "Entrepreneurial Endeavours", 
         "uniques": [
           "[+25]% production [in all cities]", 
           "[+10]% gold [in all cities]", 
