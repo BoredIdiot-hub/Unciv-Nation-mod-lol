@@ -137,6 +137,16 @@
         "column": 4
       }, 
       {
+        "name": "Military Industrial Complex", 
+        "uniques": [
+          "[+10]% Production when constructing [Military] units [in all cities]",
+          "New [Military] units start with [25] Experience [in all cities]"
+        ], 
+        "requires": ["Government Transparency", "Anti-Corruption"], 
+        "row": 1,
+        "column": 5
+      }, 
+      {
         "name": "Scientialism Complete", 
         "uniques": [
           "Empire enters 25 turn golden age", 
