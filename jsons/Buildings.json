@@ -12,6 +12,14 @@
 		    "requiredBuildingInAllCities": "Colosseum",
 		    "requiredTech": "Horseback Riding"
          },
+	 {
+		    "name": "Food Stocks", 
+		    "uniqueTo": "Wurnia", 
+		    "food": 20,
+		    "cost": 1,
+		    "culture": 12,
+		    "requiredTech": "Agriculture"
+	 },
          {
 		    "name": "Local Dam",
 		    "replaces": "Aqueduct",
