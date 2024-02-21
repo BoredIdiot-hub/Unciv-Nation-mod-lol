@@ -65,7 +65,7 @@
         "column": 2
       },
       {
-        "name": "Utopia", 
+        "name": "Idealist Utopia", 
         "uniques": [
           "Empire enters golden age", 
           "[+4] happiness from each type of luxury resource"
@@ -91,7 +91,7 @@
           "[+40] culture [in all cities]", 
           "[+40]% science [in all cities]", 
           "[+10]% Production when constructing [Military] units [in all cities]",
-          "New [Military] units start with [25] Experience [in all cities]"
+          "New [Military] units start with [40] Experience [in all cities]"
         ], 
         "requires": ["Non-Partisan Meritocratic Government"], 
         "row": 2,
