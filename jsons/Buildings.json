@@ -73,7 +73,14 @@
                     "maintenance": 3,
                     "uniques": ["[-60]% construction time for [All] improvements", "[4] free [Great Engineer] appears <upon discovering [Industrialization]>"], 
                     "requiredTech": "Construction"
-        }	    
+        },
+	{
+		    "name": "Steel Mill", 
+		    "uniqueTo": "Wurnia", 
+		    "cost": 10,
+		    "uniques": ["Can be continually built"], 
+		    "requiredTech": "Steel"
+	}
 ]
 	
 
