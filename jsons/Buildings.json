@@ -1,5 +1,5 @@
 [
-	   {
+	  {
 		    "name": "Imperial Opera",
 		    "replaces": "Circus Maximus",
 		    "uniqueTo": "Wurnia",
@@ -73,6 +73,28 @@
                     "maintenance": 3,
                     "uniques": ["[-60]% construction time for [All] improvements", "[4] free [Great Engineer] appears <upon discovering [Industrialization]>"], 
                     "requiredTech": "Construction"
+	}, 
+	{
+		    "name": "Progress Tower", 
+		    "uniqueTo": "Wurnia", 
+		    "cost": 200,
+		    "culture": 80,
+		    "happiness": 15,
+		    "isNationalWonder": true, 
+		    "uniques": ["[-60]% construction time for [All] improvements", "[Great Merchant] units are earned [80]% faster"], 
+		    "requiredTech": "Industrialization"
+	}, 
+	{
+		    "name": "Imperial Office of Chancellery", 
+		    "uniqueTo": "Wurnia", 
+		    "cost": 180,
+		    "culture": 15,
+		    "science": 25,
+		    "happiness": 8,
+		    "gold": 20,
+		    "isNationalWonder": true, 
+		    "uniques": ["[+4] movement <for all units>"], 
+		    "requiredTech": "Civil Service"
 	}
 ]
 	
