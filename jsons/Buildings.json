@@ -62,7 +62,7 @@
                     "science": 100,
                     "maintenance": 4,
                     "isNationalWonder": true,
-                    "uniques": ["[+200]% the amount of [Iron] produced", "[3] free [Great Engineer] appears <upon discovering [Industrialization]>", "[+200]% the amount of [Coal] produced"], 
+                    "uniques": ["[+200]% the amount of [Iron] produced", "[3] free [Great Engineer] appears", "[+200]% the amount of [Coal] produced"], 
                     "requiredTech": "Steel" 
         }, 
         {
@@ -71,7 +71,7 @@
                     "cost": 100,
                     "production": 400,
                     "maintenance": 3,
-                    "uniques": ["[-60]% construction time for [All] improvements", "[4] free [Great Engineer] appears <upon discovering [Industrialization]>"], 
+                    "uniques": ["[-60]% construction time for [All] improvements", "[4] free [Great Engineer] appears"], 
                     "requiredTech": "Construction"
 	}, 
 	{
@@ -106,7 +106,7 @@
 		    "happiness": 5,
 		    "gold": 100,
 		    "isNationalWonder": true, 
-		    "uniques": ["May buy [Great Merchant] units for [2500] [Gold]"], 
+		    "uniques": ["[2] free [Great Merchant] appears]"], 
 		    "requiredTech": "Economics"
 	}
 ]
