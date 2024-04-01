@@ -95,7 +95,17 @@
 		    "isNationalWonder": true, 
 		    "uniques": ["[+4] movement <for all units>"], 
 		    "requiredTech": "Civil Service"
+	}, 
+	{
+	            "name": "Imperial Financial District", 
+		    "uniqueTo": "Wurnia", 
+		    "cost": 750,
+		    "culture": 12,
+		    "science": 8,
+		    "happiness": 5,
+		    "gold": 100,
+		    "isNationalWonder": true, 
+		    "uniques": ["May buy [Great Merchant] units for [1000] [Gold]"], 
+		    "requiredTech": "Economics"
 	}
 ]
-	
-
