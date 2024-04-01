@@ -10,7 +10,7 @@
 		"range": 4,
 		"cost": 500,
 		"requiredTech": "Ballistics",
-		"requiredResource": "Aluminum","Iron", 
+		"requiredResource": "Aluminum", 
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
