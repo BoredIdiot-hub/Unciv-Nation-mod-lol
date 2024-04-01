@@ -146,6 +146,8 @@
           "[+150]% Science [in all cities]", 
           "[+80]% Culture [in all cities]", 
           "[+150]% Production [in all cities]", 
+          "May buy [Great Scientist] units for [1000] [Gold] [in all cities]", 
+          "May buy [Great Engineer] units for [1000] [Gold] [in all cities]"
           ]
       }
     ]
