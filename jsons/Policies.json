@@ -144,7 +144,10 @@
           "Empire enters 25 turn golden age", 
           "[+100]% happiness [in all cities]", 
           "[+150]% science [in all cities]", 
-          "[+80]% culture [in all cities]"
+          "[+80]% culture [in all cities]", 
+          "May buy [Great Engineer] units for [1000] [Gold] at an increasing price ([10]) <starting from the [Industrial era]>", 
+          "May buy [Great Scientist] units for [1000] [Gold] at an increasing price ([50]) <starting from the [Industrial era]>"
+                ]
         ]
       }
     ]
