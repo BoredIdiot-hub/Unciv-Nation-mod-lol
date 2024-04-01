@@ -105,7 +105,7 @@
 		    "happiness": 5,
 		    "gold": 100,
 		    "isNationalWonder": true, 
-		    "uniques": ["May buy [Great Merchant] units for [800] [Gold] [in all cities]","[-32]% maintenance on [All] buildings"], 
+		    "uniques": ["May buy [Great Merchant] units for [350] [Gold] [in all cities]","[-32]% maintenance on [All] buildings"], 
 		    "requiredTech": "Economics"
 	}
 ]
