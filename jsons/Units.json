@@ -1,16 +1,16 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
+		"name": "Imperial Military Force",
+		"unitType": "Land",
 		"uniqueTo": "Wurnia",
 		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
+		"movement": 5,
+		"strength": 200,
 		"rangedStrength": 36,
-		"range": 2,
+		"range": 4,
 		"cost": 500,
 		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
+		"requiredResource": "Aluminum","Iron", 
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	}
