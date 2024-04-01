@@ -10,8 +10,8 @@
       "Scientific": 200
     },
     "uniques": [
-      "[+40]% science [in all cities]", 
-      "[+75]% culture [in all cities]", 
+      "[+40]% Science [in all cities]", 
+      "[+75]% Culture [in all cities]", 
       "Only available <before adopting [Autocracy]>", 
       "Only available <before adopting [Freedom]>", 
       "Only available <before adopting [Order]>"
@@ -30,8 +30,8 @@
       {
         "name": "Phoganda", 
         "uniques": [
-          "[+20]% science [in all cities]", 
-          "[+35]% culture [in all cities]"
+          "[+20]% Science [in all cities]", 
+          "[+35]% Culture [in all cities]"
         ], 
         "requires": ["Freedom of Expression"],
         "row": 2,
@@ -40,7 +40,7 @@
       {
         "name": "Impartial Press", 
         "uniques": [
-          "[+4] movement <for all units>"
+          "[+4] Movement <for all units>"
           ], 
         "requires": ["Phoganda"], 
         "row": 3,
@@ -49,7 +49,7 @@
       {
         "name": "Disestablishmentarianism",
         "uniques": [
-          "[+2] science from every specialist [in all cities]"
+          "[+2] Science from every specialist [in all cities]"
         ],
         "row": 1,
         "column": 2
@@ -57,8 +57,8 @@
       {
         "name": "Responsible Education", 
         "uniques": [
-          "[+4] happiness [in all cities]", 
-          "[+10] science [in all cities]"
+          "[+4] Happiness [in all cities]", 
+          "[+10] Science [in all cities]"
         ], 
         "requires": ["Disestablishmentarianism"], 
         "row": 2,
@@ -68,7 +68,7 @@
         "name": "Idealist Utopia", 
         "uniques": [
           "Empire enters golden age", 
-          "[+4] happiness from each type of luxury resource"
+          "[+4] Happiness from each type of luxury resource"
         ], 
         "requires": ["Responsible Education"], 
         "row": 3,
@@ -88,8 +88,8 @@
       {
         "name": "Government Transparency", 
         "uniques": [
-          "[+40] culture [in all cities]", 
-          "[+40]% science [in all cities]", 
+          "[+40] Culture [in all cities]", 
+          "[+40]% Science [in all cities]", 
           "[+10]% Production when constructing [Military] units [in all cities]",
           "New [Military] units start with [40] Experience [in all cities]"
         ], 
@@ -100,8 +100,8 @@
       {
         "name": "Anti-Corruption", 
         "uniques": [
-          "[+4] happiness [in all cities]", 
-          "[+20]% gold [in all cities]"
+          "[+4] Happiness [in all cities]", 
+          "[+20]% Gold [in all cities]"
         ], 
         "requires": ["Government Transparency"], 
         "row": 3,
@@ -110,8 +110,8 @@
       {
         "name": "Planned Production", 
         "uniques": [
-          "[+3] happiness [in all cities]", 
-          "[+60]% production [in all cities]",
+          "[+3] Happiness [in all cities]", 
+          "[+60]% Production [in all cities]",
         ], 
         "row": 1,
         "column": 4
@@ -119,9 +119,9 @@
       {
         "name": "Entrepreneurial Endeavours", 
         "uniques": [
-          "[+25]% production [in all cities]", 
-          "[+10]% gold [in all cities]", 
-          "[+4] science from every [Stock Market]"
+          "[+25]% Production [in all cities]", 
+          "[+10]% Gold [in all cities]", 
+          "[+4] Science from every [Stock Market]"
         ], 
         "requires": ["Planned Production"], 
         "row": 2,
@@ -130,9 +130,9 @@
       {
         "name": "Consumerism", 
         "uniques": [
-          "[+50]% production [in all cities]", 
-          "[+10] happiness from each type of luxury resource", 
-          "[+15] production from each type of luxury resource"
+          "[+50]% Production [in all cities]", 
+          "[+10] Happiness from each type of luxury resource", 
+          "[+15] Production from each type of luxury resource"
         ], 
         "requires": ["Entrepreneurial Endeavours"], 
         "row": 3,
@@ -142,10 +142,10 @@
         "name": "Scientialism Complete", 
         "uniques": [
           "Empire enters golden age", 
-          "[+100]% happiness [in all cities]", 
-          "[+150]% science [in all cities]", 
-          "[+80]% culture [in all cities]", 
-          "[+150]% production [in all cities]", 
+          "[+100]% Happiness [in all cities]", 
+          "[+150]% Science [in all cities]", 
+          "[+80]% Culture [in all cities]", 
+          "[+150]% Production [in all cities]", 
           ]
       }
     ]
