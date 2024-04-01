@@ -106,7 +106,6 @@
 		    "happiness": 5,
 		    "gold": 100,
 		    "isNationalWonder": true, 
-		    "uniques": ["[2] free [Great Merchant] appears]"], 
 		    "requiredTech": "Economics"
 	}
 ]
