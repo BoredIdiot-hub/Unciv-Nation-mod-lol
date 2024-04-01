@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Imperial Military Force",
-		"unitType": "Land",
+		"unitType": "Armored",
 		"uniqueTo": "Wurnia",
 		"replaces": "Machine Gun",
 		"movement": 5,
