@@ -105,7 +105,7 @@
 		    "happiness": 5,
 		    "gold": 100,
 		    "isNationalWonder": true, 
-		    "uniques": ["May buy [Great Merchant] units for [1000] [Gold]"], 
+		    "uniques": ["May buy [Great Merchant] units for [10] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([2]) <starting from the [Industrial era]>"], 
 		    "requiredTech": "Economics"
 	}
 ]
