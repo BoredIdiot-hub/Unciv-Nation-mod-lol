@@ -141,12 +141,12 @@
       {
         "name": "Scientialism Complete", 
         "uniques": [
-          "Empire enters 25 turn golden age", 
+          "Empire enters [25] turn golden age", 
           "[+100]% happiness [in all cities]", 
           "[+150]% science [in all cities]", 
           "[+80]% culture [in all cities]", 
-          "May buy [Great Engineer] units for [1000] [Gold] [in all cities] at an increasing price ([10])", 
-          "May buy [Great Scientist] units for [1000] [Gold] [in all cities] at an increasing price ([50])"
+          "May buy [Great Engineer] units for [1000] [Gold] [in all cities]", 
+          "May buy [Great Scientist] units for [1000] [Gold] [in all cities]"
                 ]
       }
     ]
