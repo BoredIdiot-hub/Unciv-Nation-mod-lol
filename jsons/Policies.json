@@ -112,6 +112,7 @@
         "uniques": [
           "[+3] Happiness [in all cities]", 
           "[+60]% Production [in all cities]",
+          "[+200]% Food [in all cities]"
         ], 
         "row": 1,
         "column": 4
