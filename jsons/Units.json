@@ -20,7 +20,7 @@
 		"uniqueTo": "Wurnia", 
 		"movement": 3,
 		"cost": 750,
-		"uniques": ["[+250 Food] <by consuming this unit>", "Great Person - [Food]"], 
+		"uniques": ["[+250 Food]","Great Person - [Food]"], 
 		"requiredTech": "Fertilizer"
 	}
 ]
