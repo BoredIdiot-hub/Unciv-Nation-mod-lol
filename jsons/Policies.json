@@ -113,7 +113,7 @@
           "[+3] Happiness [in all cities]", 
           "[+60]% Production [in all cities]",
           "[+200 Food] [in all cities]", 
-          "[+1000 Food] from every [Farm] at an increase ([10]) <starting from the [Industrial era]>"
+          "[+1000 Food] from every [Farm]"
         ], 
         "row": 1,
         "column": 4
@@ -134,7 +134,8 @@
         "uniques": [
           "[+50]% Production [in all cities]", 
           "[+10] Happiness from each type of luxury resource", 
-          "[+15] Production from each type of luxury resource"
+          "[+15] Production from each type of luxury resource", 
+          "[-95]% Food consumption [in all cities]"
         ], 
         "requires": ["Entrepreneurial Endeavours"], 
         "row": 3,
