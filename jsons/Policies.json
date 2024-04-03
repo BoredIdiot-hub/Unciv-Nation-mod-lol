@@ -115,7 +115,7 @@
           "[+200 Food] [in all cities]", 
           "[+1000 Food] from every [Farm]", 
           "[+250 Production] from every [Farm]", 
-          "[+1500 Food] from every [Trading Post]"
+          "[+1500 Food] from every [Manufactory]"
         ], 
         "row": 1,
         "column": 4
