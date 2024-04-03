@@ -13,14 +13,5 @@
 		"requiredResource": "Aluminum", 
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
-	}, 
-	{
-		"name": "Great Farmer",
-		"unitType": "Civilian",
-		"uniqueTo": "Wurnia", 
-		"movement": 3,
-		"cost": 750,
-		"uniques": ["[+250 Food]","Great Person - [Food]"], 
-		"requiredTech": "Fertilizer"
 	}
 ]
