@@ -113,7 +113,8 @@
           "[+3] Happiness [in all cities]", 
           "[+60]% Production [in all cities]",
           "[+200 Food] [in all cities]", 
-          "[+1000 Food] from every [Farm]"
+          "[+1000 Food] from every [Farm]", 
+          "[+250 Production] from every [Farm]"
         ], 
         "row": 1,
         "column": 4
