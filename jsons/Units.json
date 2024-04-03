@@ -20,6 +20,6 @@
 		"uniqueTo": "Wurnia", 
 		"cost": 750,
 		"uniques": ["[+250 Food] <by consuming this unit>", "Great Person - [Food]"], 
-		"requiredTech": "Fertilizers"
+		"requiredTech": "Fertilizer"
 	}
 ]
