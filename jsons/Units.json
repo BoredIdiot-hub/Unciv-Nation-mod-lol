@@ -18,8 +18,9 @@
 		"name": "Great Farmer",
 		"unitType": "Civilian",
 		"uniqueTo": "Wurnia", 
+		"movement": 3,
 		"cost": 750,
-		"uniques": ["[+250 Food] <by consuming this unit>", "Great Person - [Food]"], 
+		"uniques": ["[+250 Food] [in all cities] <by consuming this unit>", "Great Person - [Food]"], 
 		"requiredTech": "Fertilizer"
 	}
 ]
