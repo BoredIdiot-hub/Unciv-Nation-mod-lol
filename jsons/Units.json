@@ -1,9 +1,9 @@
 [
 	{
 		"name": "Imperial Military Force",
-		"unitType": "Armored",
+		"unitType": "Gunpowder",
 		"uniqueTo": "Wurnia",
-		"replaces": "Machine Gun",
+		"replaces": "Mechanized Infantry",
 		"movement": 5,
 		"strength": 500,
 		"rangedStrength": 36,
