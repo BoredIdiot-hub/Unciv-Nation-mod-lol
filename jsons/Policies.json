@@ -110,12 +110,10 @@
       {
         "name": "Planned Production", 
         "uniques": [
-          "[+3] Happiness [in all cities]", 
+          "[+3 Happiness] [in all cities]", 
           "[+60]% Production [in all cities]",
-          "[+200 Food] [in all cities]", 
-          "[+1000 Food] from every [Farm]", 
-          "[+250 Production] from every [Farm]", 
-          "[+1500 Food] from every [Manufactory]"
+          "[+400 Food] [in all cities]",
+          "[+250 Production] [in all cities]"
         ], 
         "row": 1,
         "column": 4
