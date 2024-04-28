@@ -15,7 +15,7 @@
 	 {
 		    "name": "Food Stocks", 
 		    "uniqueTo": "Wurnia", 
-		    "food": 20,
+		    "food": 90,
 		    "cost": 1,
 		    "culture": 12,
 		    "requiredTech": "Agriculture"
