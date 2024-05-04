@@ -22,7 +22,8 @@
         "uniques": [
           "[+1] Happiness per [1] population [in all cities]", 
           "[+2] Science [in all cities]", 
-          "[+4] Culture [in all cities]"
+          "[+4] Culture [in all cities]", 
+          "[+3490]% Natural religion spread [in all cities]"
         ], 
         "row": 1,
         "column": 1
