@@ -2,6 +2,7 @@
   {
     "name": "Scientialism", 
     "era": "Industrial era",
+    "uniqueTo": "Wurnia", 
     "priorities": {
       "Neutral": 20,
       "Cultural": 50,
