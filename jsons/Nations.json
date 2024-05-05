@@ -32,7 +32,7 @@
 		"favoredReligion": "Islam", 
 		"uniquename": "Scientialism",
 		"uniques": ["[-200]% unhappiness from the number of cities","[+7] Sight <for [Settler] units>", "[20] free [Settler] units appear <upon discovering [Agriculture]>", "[units>","Quantity of strategic resources produced by the empire +[200]%","[+100]% the amount of gold per turn <upon discovering [guilds]>", "[+200]% Science", "[+150]% Production"], 
-		"cities": ["Wurnia City","Wesnia","Strohon","Surnia","Jomon","Kiryun","Gerkol","Beist","Gerv","Dimitras","Meinhal","Daigo","Sedra","Auron","Qihar","Dirhan","Hordus","Henali","Yoha","Kortown","Sigora City","Kiharo","Quihe","Deiro","Calais","Kent"], 
+		"cities": ["Wurnia City","Wesnia","Strohon","Surnia","Jomon","Kiryun","Gerkol","Beist","Gerv","Dimitras","Meinhal","Daigo","Sedra","Auron","Qihar","Dirhan","Hordus","Henali","Yoha","Kortown","Sigora City","Kiharo","Quihe","Deiro","Calases","Higoli"], 
 		"spyNames": ["Merhik"]
 	}
 ]
