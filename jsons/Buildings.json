@@ -128,7 +128,7 @@
 		    "gold": 100,
 		    "production": 250
 		    "isNationalWonder": true,
-		    "uniques": ["[+7] movement <for all units>","Only available <if [Seaport] is constructed in [this] city>"], 
+		    "uniques": ["[+7] movement <for all units>","Only available <if [Seaport] is constructed in thistle city>"], 
 		    "requiredTech": "Navigation"
 	}, 
 	{
