@@ -128,7 +128,7 @@
 		    "gold": 100,
 		    "production": 250
 		    "isNationalWonder": true,
-		    "uniques": [""], 
+		    "uniques": ["[+7] movement <for all units>","Only available <if [Seaport] is constructed in all [non-[Puppeted]] cities>"], 
 		    "requiredTech": "Navigation"
 	}, 
 	{
@@ -136,8 +136,9 @@
 		    "uniqueTo": "Wurnia", 
 		    "production": 100,
 		    "gold": 75,
+		    "food": 250,
 		    "isNationalWonder": true, 
-		    "uniques": [""], 
-		    "requiredTech": "Steam Engine"
+		    "uniques": ["New [Military] units start with [100] Experience [in all cities]"], 
+		    "requiredTech": "Steam Power"
 	}
 ]
