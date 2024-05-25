@@ -107,5 +107,37 @@
 		    "isNationalWonder": true, 
 		    "uniques": ["May buy [Great Merchant] units for [350] [Gold] [in all cities]","[-32]% maintenance on [All] buildings"], 
 		    "requiredTech": "Economics"
+	}, 
+	{
+		    "name": "Qihar Grand District", 
+		    "uniqueTo": "Wurnia", 
+		    "cost": 750,
+		    "culture": 20,
+		    "science": 80,
+		    "happiness": 15,
+		    "gold": 1800,
+                    "production": 100
+		    "isNationalWonder": true, 
+		    "uniques": ["[+700%] Production [in all cities]","[+700] Gold [in all cities]"], 
+		    "requiredTech": "Banking"
+	}, 
+	{
+		    "name": "International Port of Wurnia City", 
+		    "uniqueTo": "Wurnia", 
+		    "science": 20,
+		    "gold": 100,
+		    "production": 250
+		    "isNationalWonder": true,
+		    "uniques": [""], 
+		    "requiredTech": "Navigation"
+	}, 
+	{
+		    "name": "Navy Industrial Complex", 
+		    "uniqueTo": "Wurnia", 
+		    "production": 100,
+		    "gold": 75,
+		    "isNationalWonder": true, 
+		    "uniques": [""], 
+		    "requiredTech": "Steam Engine"
 	}
 ]
