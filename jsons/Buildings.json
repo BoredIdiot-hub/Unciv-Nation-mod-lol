@@ -62,7 +62,7 @@
                     "science": 100,
                     "maintenance": 4,
                     "isNationalWonder": true,
-                    "uniques": ["[+200]% the amount of [Iron] produced", "[3] free [Great Engineer] appears", "[+200]% the amount of [Coal] produced"], 
+                    "uniques": ["[+200]% the amount of [Iron] produced", "[3] Free [Great Engineer] appears", "[+200]% the amount of [Coal] produced"], 
                     "requiredTech": "Steel" 
         }, 
         {
@@ -71,7 +71,7 @@
                     "cost": 100,
                     "production": 400,
                     "maintenance": 3,
-                    "uniques": ["[-60]% construction time for [All] improvements", "[4] free [Great Engineer] appears"], 
+                    "uniques": ["[-60]% construction time for [All] improvements", "[4] Free [Great Engineer] appears"], 
                     "requiredTech": "Construction"
 	}, 
 	{
@@ -93,7 +93,7 @@
 		    "happiness": 8,
 		    "gold": 20,
 		    "isNationalWonder": true, 
-		    "uniques": ["[+4] movement <for all units>"], 
+		    "uniques": ["[+4] Movement <for all units>"], 
 		    "requiredTech": "Civil Service"
 	}, 
 	{
@@ -128,7 +128,7 @@
 		    "gold": 100,
 		    "production": 250
 		    "isNationalWonder": true,
-		    "uniques": ["[+7] movement <for all units>","Only available <if [Seaport] is constructed in this city>"], 
+		    "uniques": ["[+7] Movement <for all units>","Only available <if [Seaport] is constructed in this city>"], 
 		    "requiredTech": "Navigation"
 	}, 
 	{
