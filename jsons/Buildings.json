@@ -21,7 +21,7 @@
 		    "requiredTech": "Agriculture"
 	 },
          {
-		    "name": "Local Dam",
+		    "name": "Local Foodery",
 		    "replaces": "Aqueduct",
 		    "uniqueTo": "Wurnia",
 		    "cost": 80,
@@ -140,5 +140,13 @@
 		    "isNationalWonder": true, 
 		    "uniques": ["New [Military] units start with [100] Experience [in all cities]"], 
 		    "requiredTech": "Steam Power"
-	}
+	},
+	{
+		    "name": "Auron Dam",
+		    "requiredResource": "Aluminum",
+		    "uniqueTo": "Wurnia",
+		    "isNationalWonder": true'
+		    "uniques": ["Must be on [River]","[+80 Production] from [River] tiles [in all cities]","[+80 Food] from [River} tiles [in all cities]"],
+		    "requiredBuilding": "Hydro Plant",
+		    "requiredTech": "Electricity"
 ]
