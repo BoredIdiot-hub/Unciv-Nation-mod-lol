@@ -146,7 +146,7 @@
 		    "requiredResource": "Aluminum",
 		    "uniqueTo": "Wurnia",
 		    "isNationalWonder": true,
-		    "uniques": ["Must be on [River]","[+80 Production] from [River] tiles [in all cities]","[+80 Food] from [River} tiles [in all cities]"],
+		    "uniques": ["Must be on [River]","[+80 Production] from [River] tiles [in all cities]","[+80 Food] from [River] tiles [in all cities]"],
 		    "requiredBuilding": "Hydro Plant",
 		    "requiredTech": "Electricity"
 	}
