@@ -33,6 +33,6 @@
 		"uniquename": "Scientialism",
 		"uniques": ["[+20 Food] [in capital]","Land units may cross [Mountain] tiles after the first [Worker] is earned","[-200]% unhappiness from the number of cities","[+4] Movement <for [Settler] units>","Enables embarkation for land units","[+12] Sight <for [Settler] units>", "[24] free [Settler] units appear <upon discovering [Agriculture] technology>","Quantity of strategic resources produced by the empire +[200]%","[+100]% the amount of gold per turn <upon discovering [guilds]>", "[+200]% Science", "[+150]% Production"], 
 		"cities": ["Wurnia City","Wesnia","Strohon","Surnia","Jomon","Kiryun","Gerkol","Beist","Gerv","Dimitras","Meinhal","Daigo","Sedra","Auron","Qihar","Dirhan","Hordus","Henali","Yoha","Kortown","Sigora City","Kiharo","Quihe","Deiro","Calases","Higoli","Bora"], 
-		"spyNames": ["Cohan"]
+		"spyNames": ["Cohan","Istialo","Lein","Calaso","Sorbi","Tregan","Firro","Castaso","Darmo","Ikhra","Calro","Kasisi","Ouawe","Aaren","Ahsan","Johan","Minasa","Topalia","Jakiti","Abo"]
 	}
 ]
