@@ -21,13 +21,13 @@
 		    "requiredTech": "Agriculture"
 	 },
          {
-		    "name": "Local Foodery",
+		    "name": "Local Storehouse",
 		    "replaces": "Aqueduct",
 		    "uniqueTo": "Wurnia",
 		    "cost": 80,
 		    "hurryCostModifier": 160,
-		    "happiness": 20,
-		    "uniques": ["[150]% of food is carried over after a new citizen is born"],
+		    "happiness": 8,
+		    "uniques": ["[150]% Food is carried over after population increases [in this city]"],
 		    "requiredTech": "Engineering"
     	}, 
         {
