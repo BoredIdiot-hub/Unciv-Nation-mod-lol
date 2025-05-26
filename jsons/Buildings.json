@@ -27,7 +27,7 @@
 		    "cost": 80,
 		    "hurryCostModifier": 160,
 		    "happiness": 8,
-		    "uniques": ["[150]% Food is carried over after population increases [in this city]"],
+		    "uniques": ["[170]% Food is carried over after population increases [in this city]"],
 		    "requiredTech": "Engineering"
     	}, 
         {
@@ -39,18 +39,18 @@
                     "science": 280,
                     "maintenance": 0,
                     "isNationalWonder": true,
-                    "uniques": ["[+100]% science [in all cities]"],
+                    "uniques": ["[+100]% [Science] [in all cities]"],
                     "requiredTech": "Scientific Theory"
         }, 
         {
                     "name": "Aluminum Industry",
                     "uniqueTo": "Wurnia",
                     "cost": 100,
-                    "production": 240,
-                    "science": 120,
+                    "production": 170,
+                    "science": 80,
                     "maintenance": 2,
                     "isNationalWonder": true,
-                    "uniques": ["[+300]% the amount of [Aluminum] produced"], 
+                    "uniques": ["[+200]% the amount of [Aluminum] produced"], 
                     "requiredTech": "Electricity"
         },
         {
@@ -58,20 +58,20 @@
                     "replaces": "Ironworks", 
                     "uniqueTo": "Wurnia", 
                     "cost": 250,
-                    "production": 600,
-                    "science": 100,
+                    "production": 500,
+                    "science": 80,
                     "maintenance": 4,
                     "isNationalWonder": true,
-                    "uniques": ["[+200]% the amount of [Iron] produced", "Free [Great Engineer] appears", "[+200]% the amount of [Coal] produced"], 
+                    "uniques": ["[+100]% the amount of [Iron] produced", "Free [Great Engineer] appears", "[+200]% the amount of [Coal] produced"], 
                     "requiredTech": "Steel" 
         }, 
         {
                     "name": "Construction Sector", 
                     "uniqueTo": "Wurnia", 
                     "cost": 100,
-                    "production": 400,
+                    "production": 250,
                     "maintenance": 3,
-                    "uniques": ["[-60]% construction time for [All] improvements", "Free [Great Engineer] appears"], 
+                    "uniques": ["[-50]% construction time for [All] improvements", "Free [Great Engineer] appears"], 
                     "requiredTech": "Construction"
 	}, 
 	{
@@ -81,7 +81,7 @@
 		    "culture": 80,
 		    "happiness": 15,
 		    "isNationalWonder": true, 
-		    "uniques": ["[-60]% construction time for [All] improvements", "[Great Merchant] units are earned [80]% faster"], 
+		    "uniques": ["[-50]% construction time for [All] improvements", "[Great Merchant] units are earned [80]% faster"], 
 		    "requiredTech": "Industrialization"
 	}, 
 	{
@@ -118,7 +118,7 @@
 		    "gold": 1800,
                     "production": 100
 		    "isNationalWonder": true, 
-		    "uniques": ["[+700%] Production [in all cities]","[+700] Gold [in all cities]"], 
+		    "uniques": ["[+200%] [Production] [in all cities]","[+700] Gold [in all cities]"], 
 		    "requiredTech": "Banking"
 	}, 
 	{
@@ -138,7 +138,7 @@
 		    "gold": 75,
 		    "food": 250,
 		    "isNationalWonder": true, 
-		    "uniques": ["New [Military] units start with [100] Experience [in all cities]"], 
+		    "uniques": ["New [Military] units start with [100] XP [in all cities]"], 
 		    "requiredTech": "Steam Power"
 	},
 	{
