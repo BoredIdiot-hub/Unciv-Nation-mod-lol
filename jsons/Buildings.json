@@ -118,7 +118,7 @@
 		    "gold": 1800,
                     "production": 100
 		    "isNationalWonder": true, 
-		    "uniques": ["[+200]% [Production] [in all cities]","[+350+] [Gold] [in all cities]"], 
+		    "uniques": ["[+200]% [Production] [in all cities]","[+350]% [Gold] [in all cities]"], 
 		    "requiredTech": "Banking"
 	}, 
 	{
