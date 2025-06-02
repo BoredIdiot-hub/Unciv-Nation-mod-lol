@@ -20,52 +20,57 @@
         "name": "Imperial Bureaucracy", 
         "uniques": [
           "[+40]% [Culture] [in all cities]", 
+          "[-35]% construction time for [All] improvements", 
           "[+3490]% Natural religion spread [in all cities]"
         ], 
         "row": 1,
         "column": 2
       }, 
       {
-        "name": "Phoganda", 
+        "name": "Constitution", 
         "uniques": [
-          "[+20]% [Science] [in all cities]", 
-          "[+35]% [Culture] [in all cities]"
+          "[+4 Happiness] [in all cities]"
         ], 
-        "requires": ["Freedom of Expression"],
+        "requires": ["Imperial Bureaucracy"],
         "row": 2,
-        "column": 1
+        "column": 2
       }, 
       {
-        "name": "Impartial Press", 
+        "name": "Freedoms, rights, and necessities", 
         "uniques": [
-          "[+4] Movement <for all units>"
+          "[+4 Happiness] [in all cities]",
+          "[+37]% [Science] [in all cities]", 
+          "[+25]% [Culture] [in all cities]"
           ], 
-        "requires": ["Phoganda"], 
+        "requires": ["Constitution"], 
+        "row": 3,
+        "column": 2
+      }, 
+      {
+        "name": "State owned primary industries",
+        "uniques": [
+          "[+25]% [Production] [in all cities]", 
+          "[+25]% [Food] [in all cities]", 
+          "[+25]% [Gold] [in all cities]"
+        ],
+        "requires": ["Constitution", "Freedoms, rights, and necessities"], 
         "row": 3,
         "column": 1
-      }, 
-      {
-        "name": "Disestablishmentarianism",
-        "uniques": [
-          "[+2 Science] from every specialist [in all cities]"
-        ],
-        "row": 1,
-        "column": 2
       },
       {
-        "name": "Responsible Education", 
+        "name": "Centralized banking", 
         "uniques": [
-          "[+13 Happiness] [in all cities]", 
-          "[+8 Science] [in all cities]"
+          "[+50]% [Gold] [in all cities]"
         ], 
-        "requires": ["Disestablishmentarianism"], 
-        "row": 2,
-        "column": 2
+        "requires": ["State owned primary industries"], 
+        "row": 4,
+        "column": 1
       },
       {
-        "name": "Idealist Utopia", 
+        "name": "Ethicacy", 
         "uniques": [
-          "Empire enters golden age", 
+          "[+25]% [Happiness] [in all cities]", 
+          "[+100]% [Culture] [in all cities]", 
           "[+2 Happiness] from each type of luxury resource"
         ], 
         "requires": ["Responsible Education"], 
