@@ -1,33 +1,29 @@
 [
   {
     "name": "Scientialism", 
-    "era": "Industrial era",
+    "era": "Medieval era",
     "uniqueTo": "Wurnia", 
     "priorities": {
-      "Neutral": 20,
+      "Neutral": 80,
       "Cultural": 50,
       "Diplomatic": 100,
-      "Domination": 40,
-      "Scientific": 200
+      "Domination": 30,
+      "Scientific": 100
     },
     "uniques": [
       "[+40]% [Science] [in all cities]", 
       "[+75]% [Culture] [in all cities]", 
-      "Only available <before adopting [Autocracy]>", 
-      "Only available <before adopting [Freedom]>", 
-      "Only available <before adopting [Order]>"
+      "[+40]% [Happiness] [in all cities]"
     ], 
     "policies": [
       {
-        "name": "Freedom of Expression", 
+        "name": "Imperial Bureaucracy", 
         "uniques": [
-          "[+1] [Happiness] per [1] population [in all cities]", 
-          "[+2] [Science] [in all cities]", 
-          "[+4] [Culture] [in all cities]", 
+          "[+40]% [Culture] [in all cities]", 
           "[+3490]% Natural religion spread [in all cities]"
         ], 
         "row": 1,
-        "column": 1
+        "column": 2
       }, 
       {
         "name": "Phoganda", 
