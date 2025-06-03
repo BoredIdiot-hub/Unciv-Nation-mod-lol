@@ -14,7 +14,7 @@
 	},
 	{
 		"name": "Steelworks"
-		"uniqieTo": "Wurnia", 
+		"uniqueTo": "Wurnia", 
 		"replaces": "Ironworks", 
 		"greatPersonPoints": {"Great Engineer": 4}, 
 		"cost": 250,
