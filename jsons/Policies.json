@@ -170,7 +170,14 @@
       {
         "name": "Infrastructure regulation", 
         "uniques": [
-          "
+          "[-95]% Unhappiness from [Population] [in all cities]", 
+          "[-95]% unhappiness from the number of cities", 
+          "[+25]% [Happiness] [in all cities]"
+        ], 
+        "requires": ["Welfare state"]
+        "row": 6,
+        "column": 2
+      }, 
       {
         "name": "Scientialism Complete", 
         "uniques": [
