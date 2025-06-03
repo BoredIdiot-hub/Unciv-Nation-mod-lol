@@ -1,7 +1,7 @@
 [
   {
     "name": "Scientialism", 
-    "era": "Medieval era",
+    "era": "Industrial era",
     "uniqueTo": "Wurnia", 
     "priorities": {
       "Neutral": 80,
@@ -45,7 +45,7 @@
           ], 
         "requires": ["Constitutionalism"], 
         "row": 3,
-        "column": 2
+        "column": 3
       }, 
       {
         "name": "State owned primary industries",
@@ -77,7 +77,7 @@
         ], 
         "requires": ["Freedoms, rights, and necessities"], 
         "row": 4,
-        "column": 2
+        "column": 3
       }, 
       {
         "name": "Anti-corruption", 
@@ -145,7 +145,7 @@
         ], 
         "requires": ["R&D grants", "Transparency"], 
         "row": 7,
-        "column": 2
+        "column": 3
       },
       {
         "name": "SMEs", 
@@ -165,29 +165,30 @@
         ], 
         "requires": ["Ethicacy"]
         "row": 5,
-        "column": 2,
+        "column": 3
       }, 
       {
         "name": "Infrastructure regulation", 
         "uniques": [
           "[-95]% Unhappiness from [Population] [in all cities]", 
           "[-95]% unhappiness from the number of cities", 
-          "[+25]% [Happiness] [in all cities]"
+          "[+25]% [Happiness] [in all cities]", 
+          "[+4] Movement <for all units>"
         ], 
         "requires": ["Welfare state"]
         "row": 6,
-        "column": 2
-      }, 
+        "column": 3
+      },
       {
         "name": "Scientialism Complete", 
         "uniques": [
           "Empire enters golden age", 
-          "[+100]% [Happiness] [in all cities]", 
+          "[+40]% [Happiness] [in all cities]", 
           "[+150]% [Science] [in all cities]", 
           "[+80]% [Culture] [in all cities]", 
           "[+150]% [Production] [in all cities]", 
-          "May buy [Great Scientist] units for [1000] [Gold] [in all cities]", 
-          "May buy [Great Engineer] units for [1000] [Gold] [in all cities]"
+          "May buy [Great Scientist] units for [10000] [Gold] [in all cities]", 
+          "May buy [Great Engineer] units for [10000] [Gold] [in all cities]"
           ]
       }
     ]
