@@ -16,10 +16,45 @@
 		"name": "Steelworks"
 		"uniqieTo": "Wurnia", 
 		"replaces": "Ironworks", 
+		"greatPersonPoints": {"Great Engineer": 4}, 
 		"cost": 250,
-                "production": 300,
-                "science": 80,
+                "production": 250,
                 "maintenance": 4,
                 "isNationalWonder": true,
                 "uniques": ["[+25]% the amount of [Iron] produced", "Free [Great Engineer] appears", "[+25]% the amount of [Coal] produced"], 
                 "requiredTech": "Steel"
+	}, 
+	{
+		"name": "Arms museum", 
+		"unqiueTo": "Wurnia", 
+		"cost": 300,
+		"culture": 30,
+		"maintenace": 2,
+		"isNationalWonder": true, 
+		"percentStatBonus": {"culture": 50}, 
+		"uniques": ["[+3 Happiness] from each type of luxury resource", "[+15]% [Culture] [in all cities]", "Only available <if [Museum] is constructed in all [non-[Puppeted]] cities>", "Cost increase by [40] per owned city"]
+	},
+        {
+                "name": "Imperial Academy", 
+		"replaces": "Oxford University", 
+		"uniqueTo": "Wurnia", 
+		"greatPersonPoints": {"Great Scientist": 4} 
+		"cost": 300,
+		"science": 30,
+		"maintenace": 3,
+		"isNationalWonder": true, 
+		"percentStatBonus": {"science": 75}, 
+		"uniques": ["Free Technology", "Cost increases by [40] per owned city", "Can only be built <in [Capital] cities>"], 
+		"requiredTech": "Public Education"
+	}, 
+	{
+		"name": "Old financial street"
+		"uniqueTo": "Wurnia", 
+		"cost": 200,
+		"gold": 30,
+		"isNationalWonder": true, 
+		"percentStatBonus": {"gold": 30}, 
+		"uniques": ["[+50]% [Gold] from every [Customs house]", "[-20]% maintenance cost for [all] buildings [in this city]"], 
+		"requiredTech": "Economics"
+	}
+]
