@@ -1,153 +1,25 @@
 [
-	  {
-		    "name": "Imperial Opera",
-		    "replaces": "Circus Maximus",
-		    "uniqueTo": "Wurnia",
-		    "cost": 480,
-		    "happiness": 22,
-		    "culture": 20,
-		    "science": 50,
-		    "maintenance": 1,
-		    "isNationalWonder": true,
-		    "requiredBuildingInAllCities": "Colosseum",
-		    "requiredTech": "Horseback Riding"
-         },
-	 {
-		    "name": "Food Stocks", 
-		    "uniqueTo": "Wurnia", 
-		    "food": 90,
-		    "cost": 1,
-		    "culture": 12,
-		    "requiredTech": "Agriculture"
-	 },
-         {
-		    "name": "Local Storehouse",
-		    "replaces": "Aqueduct",
-		    "uniqueTo": "Wurnia",
-		    "cost": 80,
-		    "hurryCostModifier": 160,
-		    "happiness": 8,
-		    "uniques": ["[170]% Food is carried over after population increases [in this city]"],
-		    "requiredTech": "Engineering"
-    	}, 
         {
-                    "name": "Imperial Academy",
-                    "replaces": "Oxford University",
-                    "uniqueTo": "Wurnia",
-                    "cost": 180,
-                    "culture": 50,
-                    "science": 280,
-                    "maintenance": 0,
-                    "isNationalWonder": true,
-                    "uniques": ["[+100]% [Science] [in all cities]"],
-                    "requiredTech": "Scientific Theory"
-        }, 
-        {
-                    "name": "Aluminum Industry",
-                    "uniqueTo": "Wurnia",
-                    "cost": 100,
-                    "production": 170,
-                    "science": 80,
-                    "maintenance": 2,
-                    "isNationalWonder": true,
-                    "uniques": ["[+200]% the amount of [Aluminum] produced"], 
-                    "requiredTech": "Electricity"
-        },
-        {
-                    "name": "Steelworks", 
-                    "replaces": "Ironworks", 
-                    "uniqueTo": "Wurnia", 
-                    "cost": 250,
-                    "production": 500,
-                    "science": 80,
-                    "maintenance": 4,
-                    "isNationalWonder": true,
-                    "uniques": ["[+100]% the amount of [Iron] produced", "Free [Great Engineer] appears", "[+200]% the amount of [Coal] produced"], 
-                    "requiredTech": "Steel" 
-        }, 
-        {
-                    "name": "Construction Sector", 
-                    "uniqueTo": "Wurnia", 
-                    "cost": 100,
-                    "production": 250,
-                    "maintenance": 3,
-                    "uniques": ["[-50]% construction time for [All] improvements", "Free [Great Engineer] appears"], 
-                    "requiredTech": "Construction"
-	}, 
-	{
-		    "name": "Progress Tower", 
-		    "uniqueTo": "Wurnia", 
-		    "cost": 200,
-		    "culture": 80,
-		    "happiness": 15,
-		    "isNationalWonder": true, 
-		    "uniques": ["[-50]% construction time for [All] improvements", "[Great Merchant] units are earned [80]% faster"], 
-		    "requiredTech": "Industrialization"
-	}, 
-	{
-		    "name": "Imperial Office of Chancellery", 
-		    "uniqueTo": "Wurnia", 
-		    "cost": 180,
-		    "culture": 15,
-		    "science": 25,
-		    "happiness": 8,
-		    "gold": 20,
-		    "isNationalWonder": true, 
-		    "uniques": ["[+4] Movement <for all units>"], 
-		    "requiredTech": "Civil Service"
-	}, 
-	{
-	            "name": "Imperial Financial District", 
-		    "uniqueTo": "Wurnia", 
-		    "cost": 750,
-		    "culture": 12,
-		    "science": 8,
-		    "happiness": 5,
-		    "gold": 100,
-		    "isNationalWonder": true, 
-		    "uniques": ["May buy [Great Merchant] units for [350] [Gold] [in all cities]","[-32]% maintenance on [All] buildings"], 
-		    "requiredTech": "Economics"
-	}, 
-	{
-		    "name": "Qihar Grand District", 
-		    "uniqueTo": "Wurnia", 
-		    "cost": 750,
-		    "culture": 20,
-		    "science": 80,
-		    "happiness": 15,
-		    "gold": 1800,
-                    "production": 100
-		    "isNationalWonder": true, 
-		    "uniques": ["[+200]% [Production] [in all cities]","[+350]% [Gold] [in all cities]"], 
-		    "requiredTech": "Banking"
-	}, 
-	{
-		    "name": "International Port of Wurnia City", 
-		    "uniqueTo": "Wurnia", 
-		    "science": 20,
-		    "gold": 100,
-		    "production": 250
-		    "isNationalWonder": true,
-		    "uniques": ["[+7] Movement <for all units>"], 
-		    "requiredTech": "Navigation"
-	}, 
-	{
-		    "name": "Navy Industrial Complex", 
-		    "uniqueTo": "Wurnia", 
-		    "production": 100,
-		    "gold": 75,
-		    "food": 250,
-		    "isNationalWonder": true, 
-		    "uniques": ["New [Military] units start with [100] XP [in all cities]"], 
-		    "requiredTech": "Steam Power"
+		"name": "Imperial Chancellery building",
+		"uniqueTo": "Wurnia", 
+		"replaces": "Palace", 
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 3,
+		"cityStrength": 3,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"]
 	},
 	{
-		    "name": "Auron Dam",
-		    "requiredResource": "Aluminum",
-		    "uniqueTo": "Wurnia",
-		    "isNationalWonder": true,
-		    "uniques": ["Must be on [River]","[+80 Production] from [River] tiles [in all cities]","[+80 Food] from [River] tiles [in all cities]"],
-		    "requiredBuilding": "Hydro Plant",
-		    "requiredTech": "Electricity"
-	}
-]
+		"name": "Steelworks"
+		"uniqieTo": "Wurnia", 
+		"replaces": "Ironworks", 
+		"cost": 250,
+                "production": 300,
+                "science": 80,
+                "maintenance": 4,
+                "isNationalWonder": true,
+                "uniques": ["[+25]% the amount of [Iron] produced", "Free [Great Engineer] appears", "[+25]% the amount of [Coal] produced"], 
+                "requiredTech": "Steel"
