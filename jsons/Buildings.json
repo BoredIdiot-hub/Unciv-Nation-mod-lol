@@ -45,7 +45,7 @@
 		"isNationalWonder": true, 
 		"percentStatBonus": {"science": 75}, 
 		"uniques": ["Free Technology", "Cost increases by [40] per owned city", "Can only be built <in [Capital] cities>"], 
-		"requiredTech": "Public Education"
+		"requiredTech": "Education"
 	}, 
 	{
 		"name": "Old financial street"
