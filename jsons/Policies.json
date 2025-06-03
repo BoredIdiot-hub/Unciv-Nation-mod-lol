@@ -11,9 +11,9 @@
       "Scientific": 100
     },
     "uniques": [
-      "[+40]% [Science] [in all cities]", 
-      "[+75]% [Culture] [in all cities]", 
-      "[+40]% [Happiness] [in all cities]"
+      "[+20]% [Science] [in all cities]", 
+      "[+35]% [Culture] [in all cities]", 
+      "[+30]% [Happiness] [in all cities]"
     ], 
     "policies": [
       {
@@ -21,15 +21,16 @@
         "uniques": [
           "[+40]% [Culture] [in all cities]", 
           "[-35]% construction time for [All] improvements", 
-          "[+3490]% Natural religion spread [in all cities]"
+          "[+349]% Natural religion spread [in all cities]"
         ], 
         "row": 1,
         "column": 2
       }, 
       {
-        "name": "Constitution", 
+        "name": "Constitutionalism", 
         "uniques": [
-          "[+4 Happiness] [in all cities]"
+          "[+3 Happiness] [in all cities]", 
+          "[-40]% Culture cost of adopting new Policies", 
         ], 
         "requires": ["Imperial Bureaucracy"],
         "row": 2,
@@ -42,7 +43,7 @@
           "[+37]% [Science] [in all cities]", 
           "[+25]% [Culture] [in all cities]"
           ], 
-        "requires": ["Constitution"], 
+        "requires": ["Constitutionalism"], 
         "row": 3,
         "column": 2
       }, 
@@ -53,7 +54,7 @@
           "[+25]% [Food] [in all cities]", 
           "[+25]% [Gold] [in all cities]"
         ],
-        "requires": ["Constitution", "Freedoms, rights, and necessities"], 
+        "requires": ["Constitutionalism", "Freedoms, rights, and necessities"], 
         "row": 3,
         "column": 1
       },
@@ -71,89 +72,105 @@
         "uniques": [
           "[+25]% [Happiness] [in all cities]", 
           "[+100]% [Culture] [in all cities]", 
-          "[+2 Happiness] from each type of luxury resource"
+          "[+2 Happiness] from each type of luxury resource", 
+          "[-75]% Food consumption [in all cities]"
         ], 
-        "requires": ["Responsible Education"], 
-        "row": 3,
+        "requires": ["Freedoms, rights, and necessities"], 
+        "row": 4,
         "column": 2
       }, 
       {
-        "name": "Non-Partisan Meritocratic Government", 
+        "name": "Anti-corruption", 
         "uniques": [
-          "[+10]% [Gold] [in all cities]", 
-          "[+25]% [Production] [in all cities]", 
+          "[+50]% [Gold] [in all cities]", 
           "[-33]% maintenance <for [all improvements]>", 
-          "[-33]% maintenance <for [all buildings]>"
+          "[-33]% maintenance <for [all buildings]>", 
+          "[+50]% [Happiness] [in all cities]", 
+          "[Gold] cost of purchasing items in cities [-23]%"
         ], 
-        "row": 1,
+        "requires": ["Constitutionalism", "Ethicacy"], 
+        "row": 4,
         "column": 3
       }, 
       {
-        "name": "Government Transparency", 
+        "name": "Transparency", 
         "uniques": [
-          "[+25] [Culture] [in all cities]", 
-          "[+30]% [Science] [in all cities]", 
-          "[+10]% Production when constructing [Military] units [in all cities]",
-          "New [Military] units start with [120] Experience [in all cities]"
+          "[+50]% [Culture] [in all cities]", 
+          "[+35]% [Happiness] [in all cities]",
         ], 
-        "requires": ["Non-Partisan Meritocratic Government"], 
-        "row": 2,
+        "requires": ["Anti-corruption"], 
+        "row": 5,
         "column": 3
       }, 
       {
-        "name": "Anti-Corruption", 
+        "name": "Technocratic republic", 
         "uniques": [
           "[+4 Happiness] [in all cities]", 
-          "[+20]% [Gold] [in all cities]"
+          "[+20]% [Science] [in all cities]", 
+          "Empire enters golden age", 
+          "[-25]% Culture cost of adopting new Policies"
         ], 
-        "requires": ["Government Transparency"], 
-        "row": 3,
-        "column": 3
-      }, 
-      {
-        "name": "Planned Production", 
-        "uniques": [
-          "[+13 Happiness] [in all cities]", 
-          "[+60]% [Production] [in all cities]",
-          "[+400 Food] [in all cities]",
-          "[+250 Production] [in all cities]"
-        ], 
-        "row": 1,
+        "requires": ["Transparency"], 
+        "row": 6,
         "column": 4
       }, 
       {
-        "name": "Entrepreneurial Endeavours", 
+        "name": "Incentivized private industries", 
+        "uniques": [
+          "[+4 Happiness] [in all cities]", 
+          "[+40]% [Production] [in all cities]",
+          "[+40]% [Food] [in all cities]"
+        ], 
+        "requires": ["Centralized banking", "Ethicacy"], 
+        "row": 5,
+        "column": 1
+      }, 
+      {
+        "name": "R&D grants", 
         "uniques": [
           "[+25]% [Production] [in all cities]", 
-          "[+10]% [Gold] [in all cities]", 
-          "[+4 Science] from every [Stock Market]"
+          "[+30]% [Science] from every [Industrial estate]", 
+          "Quantity of strategic resources produced by the empire +[200]%"
         ], 
-        "requires": ["Planned Production"], 
-        "row": 2,
-        "column": 4
+        "requires": ["Incentivized private industries"], 
+        "row": 6,
+        "column": 1
       }, 
       {
-        "name": "Consumerism", 
+        "name": "Market regulation", 
         "uniques": [
-          "[+50]% [Production] [in all cities]", 
-          "[+10 Happiness] from each type of luxury resource", 
-          "[+15 Production] from each type of luxury resource", 
-          "[-95]% Food consumption [in all cities]"
+          "[+20]% [Gold] [in all cities]", 
+          "[+4 Happiness] [in all cities]", 
+          "[+25]% [Production] [in all cities]", 
         ], 
-        "requires": ["Entrepreneurial Endeavours"], 
-        "row": 3,
-        "column": 4
+        "requires": ["R&D grants", "Transparency"], 
+        "row": 7,
+        "column": 2
       },
       {
-        "name": "Trade Encouragement", 
+        "name": "SMEs", 
         "uniques": [
-          "[+40 Gold] from each Trade Route", 
-          "[+500]% [Production] [in capital]"
+          "[+20]% [Production] from each type of luxury resource"
         ], 
-        "requires": ["Consumerism"], 
-        "row": 4,
-        "column": 4
+        "requires": ["R&D grants"], 
+        "row": 7,
+        "column": 1
       }, 
+      {
+        "name": "Welfare state"
+        "uniques": [
+          "[+40]% [Happiness] [in all cities]", 
+          "[+30]% [Food] [in all cities]", 
+          "[+40]% [Culture] [in all cities]"
+        ], 
+        "requires": ["Ethicacy"]
+        "row": 5,
+        "column": 2,
+      }, 
+      {
+        "name": "Infrastructure regulation", 
+        "uniques": [
+          "
       {
         "name": "Scientialism Complete", 
         "uniques": [
