@@ -89,8 +89,8 @@
           "[Gold] cost of purchasing items in cities [-23]%"
         ], 
         "requires": ["Constitutionalism", "Ethicacy"], 
-        "row": 4,
-        "column": 4
+        "row": 3,
+        "column": 5
       }, 
       {
         "name": "Transparency", 
@@ -99,8 +99,8 @@
           "[+35]% [Happiness] [in all cities]",
         ], 
         "requires": ["Anti-corruption"], 
-        "row": 5,
-        "column": 4
+        "row": 4,
+        "column": 5
       }, 
       {
         "name": "Technocratic republic", 
@@ -111,7 +111,7 @@
           "[-25]% Culture cost of adopting new Policies"
         ], 
         "requires": ["Transparency"], 
-        "row": 6,
+        "row": 5,
         "column": 5
       }, 
       {
