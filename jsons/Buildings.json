@@ -52,10 +52,10 @@
 		"name": "Old financial street"
 		"uniqueTo": "Wurnia", 
 		"cost": 200,
-		"gold": 30,
+		"gold": 60,
 		"isNationalWonder": true, 
 		"percentStatBonus": {"gold": 30}, 
-		"uniques": ["[+50]% [Gold] from every [Customs house]", "[-20]% maintenance cost for [all] buildings [in this city]"], 
+		"uniques": ["[+50]% [Gold] from every [Customs house]", "[-20]% maintenance cost for [All] buildings [in this city]"], 
 		"requiredTech": "Economics"
 	}, 
 	{
@@ -65,7 +65,42 @@
 		"production": 150,
 		"isNationalWonder": true, 
 		"percentStatBonus": {"production": 25, "gold": 25}, 
-		"uniques": [" Only available <if [Harbor] is constructed in all [coastal, non-[Puppeted]] cities>", "Cost increases by [40] per owned city", "[+40]% [Food] [in all [coastal] cities]"], 
+		"uniques": ["Only available <if [Harbor] is constructed in all [coastal, non-[Puppeted]] cities>", "Cost increases by [40] per owned city", "[+40]% [Food] [in all [coastal] cities]", "Must be next to [Coast]"], 
 		"requiredTech": "Navigation"
-	}
+	}, 
+	{
+		"name": "Qihar financial district"
+		"uniqueTo": "Wurnia", 
+		"greatPersonPoints": {"Great Merchant": 7}, 
+		"cost": 500,
+		"gold": 200,
+		"isNationalWonder": true, 
+		"percentStatBonus": {"gold": 75}, 
+		"uniques": ["[+60]% [Gold] from every [Industrial estate]", "[-30]% maintenance cost for [All] buildings [in this city]", "Free [Great Merchant] appears", "Only available <if [Old financial street] is constructed>"], 
+		"requiredTech": "Industrialization"
+	}, 
+	{
+		"name": "Wurnia International Trade Bank", 
+		"uniqueTo": "Wurnia", 
+		"greatPersonPoints": {"Great Merchant": 3}, 
+		"cost": 450,
+		"gold": 100,
+		"isNationalWonder": true, 
+		"percentStatBonus": {"gold": 40}, 
+		"uniques:" ["[+10 Gold] from every [Trade route]"], 
+		"requiredTech": "Banking"
+	}, 
+	{
+		"name": "Imperial Bank of Wurnia", 
+		"uniqueTo": "Wurnia", 
+		"replaces": "National Treasury", 
+		"cost": 350,
+		"gold": 30,
+		"isNationalWonder": true, 
+		"uniques": ["Only available <if [Bank] is constructed in all [non-[Puppeted]] cities>", "[-15]% maintenance cost for [All] buildings [in all cities]", "Cost increases by [30] per owned city"], 
+		"requiredTech": "Banking"
+	}, 
+	{
+		"name": "Port of Gerv", 
+		"uniqueTo": "Wurnia", 
 ]
