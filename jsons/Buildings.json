@@ -122,15 +122,25 @@
 		"requiredTech": "Rocketry"
 	},
 	{
-		"name": "Navy industrial complex",
+		"name": "Imperial defense system",
 		"uniqueTo": "Wurnia",
 		"cost": 1350,
 		"maintenance": 15,
 		"greatPersonPoints": {"Great General": 4},
 		"percentStatBonus": {"production": 50},
 		"isNationalWonder": true
-		"uniques": ["[
-
-
-
-		
+		"uniques": ["[+3] Movement <for [{Military} {Water}] units>", "[+3] Sight <for [{Military} {Water}] units>", "Free [Great General] appears", "New [Military] units start with [120] XP [in all cities]", "[-25]% enemy spy effectiveness [in all cities]", "Promotes all spies [3] time(s)",
+            "Gain [5] extra spies", "All newly-trained units [in all cities] receive the [Logistics] promotion", "Only available <if [Militray base] is constructed in all [non-[Puppeted]] cities>"],
+		"requiredTech": "Combined arms"
+	},
+	{
+		"name": "Progress Tower",
+		"uniqueTo": "Wurnia",
+		"cost": 2000,
+		"culture": 200,
+		"happiness": 10,
+		"isNationalWonder": true,
+		"uniques": ["[+75]% [Happiness] [in all ciites]", "Empire enters golden age", "[+40]% [Culture] [in all cities]"],
+		"requiredTech": "Ecology"
+	}	
+]
