@@ -53,7 +53,6 @@
 		"uniqueTo": "Wurnia", 
 		"cost": 200,
 		"gold": 60,
-		"isNationalWonder": true, 
 		"percentStatBonus": {"gold": 30}, 
 		"uniques": ["[+50]% [Gold] from every [Customs house]", "[-20]% maintenance cost for [All] buildings [in this city]"], 
 		"requiredTech": "Economics"
@@ -65,7 +64,7 @@
 		"production": 150,
 		"isNationalWonder": true, 
 		"percentStatBonus": {"production": 25, "gold": 25}, 
-		"uniques": ["Only available <if [Harbor] is constructed in all [coastal, non-[Puppeted]] cities>", "Cost increases by [40] per owned city", "[+40]% [Food] [in all [coastal] cities]", "Must be next to [Coast]"], 
+		"uniques": [, "Cost increases by [40] per owned city", "[+30]% [Food] [in all [coastal] cities]", "Must be next to [Coast]"], 
 		"requiredTech": "Navigation"
 	}, 
 	{
@@ -73,9 +72,9 @@
 		"uniqueTo": "Wurnia", 
 		"greatPersonPoints": {"Great Merchant": 7}, 
 		"cost": 500,
-		"gold": 200,
+		"gold": 350,
 		"isNationalWonder": true, 
-		"percentStatBonus": {"gold": 75}, 
+		"percentStatBonus": {"gold": 72}, 
 		"uniques": ["[+60]% [Gold] from every [Industrial estate]", "[-30]% maintenance cost for [All] buildings [in this city]", "Free [Great Merchant] appears", "Only available <if [Old financial street] is constructed>"], 
 		"requiredTech": "Industrialization"
 	}, 
@@ -87,7 +86,7 @@
 		"gold": 100,
 		"isNationalWonder": true, 
 		"percentStatBonus": {"gold": 40}, 
-		"uniques:" ["[+10 Gold] from every [Trade route]"], 
+		"uniques:" ["[+4 Gold] from every [Trade route]", "[+3 Gold] from every [Seaport]"], 
 		"requiredTech": "Banking"
 	}, 
 	{
@@ -102,5 +101,36 @@
 	}, 
 	{
 		"name": "Port of Gerv", 
-		"uniqueTo": "Wurnia", 
-]
+		"uniqueTo": "Wurnia",  
+		"cost": 800,
+		"production": 180,
+		"isNationalWonder": true,
+		"percentStatBonus": {"production": 57, "gold": 70},
+		"uniques": ["Only available <if [Seaport] is constructed in all [coastal, non-[Puppeted]] cities>", "Only available <if [Port Wurnia City] is constructed>", "[+50]% [Food] [in all cities]", "Must be next to [Coast]"],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Wurnian space academy"
+		"uniqueTo": "Wurnia",
+		"cost": 400,
+		"maintenance": 8
+		"science": 100,
+		"greatPersonPoints": {"Great Scientist": 7},
+		"percentStatBonus": {"science": 47},
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Must be next to [Mountain]", "Free [Great Scientist] appears"],
+		"requiredTech": "Rocketry"
+	},
+	{
+		"name": "Navy industrial complex",
+		"uniqueTo": "Wurnia",
+		"cost": 1350,
+		"maintenance": 15,
+		"greatPersonPoints": {"Great General": 4},
+		"percentStatBonus": {"production": 50},
+		"isNationalWonder": true
+		"uniques": ["[
+
+
+
+		
