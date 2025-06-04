@@ -16,10 +16,11 @@
 		"name": "Steelworks"
 		"uniqueTo": "Wurnia", 
 		"replaces": "Ironworks", 
-		"greatPersonPoints": {"Great Engineer": 4}, 
+		"greatPersonPoints": {"Great Engineer": 3}, 
 		"cost": 250,
                 "production": 250,
                 "maintenance": 4,
+		"percentStatBonus": {"production": 40}, 
                 "isNationalWonder": true,
                 "uniques": ["[+25]% the amount of [Iron] produced", "Free [Great Engineer] appears", "[+25]% the amount of [Coal] produced"], 
                 "requiredTech": "Steel"
@@ -56,5 +57,15 @@
 		"percentStatBonus": {"gold": 30}, 
 		"uniques": ["[+50]% [Gold] from every [Customs house]", "[-20]% maintenance cost for [all] buildings [in this city]"], 
 		"requiredTech": "Economics"
+	}, 
+	{
+		"name": "Port Wurnia City", 
+		"uniqueTo": "Wurnia", 
+		"cost": 400,
+		"production": 150,
+		"isNationalWonder": true, 
+		"percentStatBonus": {"production": 25, "gold": 25}, 
+		"uniques": [" Only available <if [Harbor] is constructed in all [coastal, non-[Puppeted]] cities>", "Cost increases by [40] per owned city", "[+40]% [Food] [in all [coastal] cities]"], 
+		"requiredTech": "Navigation"
 	}
 ]
